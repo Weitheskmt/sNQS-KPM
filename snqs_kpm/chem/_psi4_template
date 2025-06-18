@@ -1,11 +1,12 @@
 """This is a template for psi4 input format."""
-import numpy
-import sys
 # note that to run psi4 we need to import snqs_kpm...
 # sys.path.append('absolute path of snqs_kpm')
 from snqs_kpm.config import *
 from snqs_kpm.chem import MolecularData
 from snqs_kpm.ops import general_basis_change
+
+import numpy
+import sys
 from psi4.core import MintsHelper
 from numpy import array
 
